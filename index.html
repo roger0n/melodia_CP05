@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./img/logo_melodia2.0-removebg-preview.png" type="image/x-icon">
+    <title>Melodia</title>
+</head>
+<body>
+
+    <header id="header" class="grid">
+        <div class="container">
+            
+            <div class="flex">
+                
+                <a href="#"><img src="./img/logo_melodia2.0-removebg-preview.png" alt="logo"></a>
+
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#apresentacao">Saiba mais</a></li>
+                        <li><a href="#funcionalidades">Funcionalidades</a></li>
+                        <li><a href="#depoimentos">Depoimentos</a></li>
+                        <li><a href="#formulario">Contato</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+
+        </div>
+    </header>
+
+    <div class="banner" class="grid">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Y4kyzQE-Ybg?si=yhSHcIiJ2481VYTT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video-element"></iframe>
+        <h1>Sua Música, Sua Forma </h1>
+        <h5>Ouça suas musicas favoritas em uma qualidade superior</h5>
+        <button class="cta">Ouça agora</button>
+    </div>
+    
+
+
+    <section id="apresentacao" class="container" class="grid">
+        <h1>Principais Benefícios</h1>
+        <div class="beneficios flex">
+          <div class="beneficio">
+            <i class="fas fa-music"></i>
+            <h3>Qualidade de Som Superior</h3>
+            <p>Desfrute de uma experiência sonora imersiva com a mais alta qualidade de áudio.</p>
+          </div>
+      
+          <div class="beneficio">
+            <i class="fas fa-headphones-alt"></i>
+            <h3>Playlists Personalizadas</h3>
+            <p>Crie e organize suas playlists com seus artistas e músicas favoritas.</p>
+          </div>
+      
+          <div class="beneficio">
+            <i class="fas fa-search"></i>
+            <h3>Descubra Novos Artistas</h3>
+            <p>Explore e descubra novos talentos musicais com recomendações personalizadas.</p>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="funcionalidades" class="container">
+        <h1>Funcionalidades</h1>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card">
+              <i class="fas fa-headphones-alt"></i>
+              <h3>Streaming de Alta Qualidade</h3>
+              <p>Ouça suas músicas preferidas em altíssima qualidade, sem interrupções.</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <i class="fa-regular fa-circle-play"></i>
+              <h3>Criação de Playlists</h3>
+              <p>Crie e organize suas próprias playlists com seus artistas e músicas favoritas.</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <i class="fas fa-user"></i>
+              <h3>Recomendações Personalizadas</h3>
+              <p>Descubra novos artistas e músicas com recomendações feitas especialmente para você.</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <i class="fas fa-share-alt"></i>
+              <h3>Compartilhamento Social</h3>
+              <p>Compartilhe suas playlists e músicas favoritas com seus amigos nas redes sociais.</p>
+            </div>
+          </div>
+          <!-- Continue adicionando mais cards com as classes de colunas do Bootstrap -->
+        </div>
+      </section>
+    
+      <section id="depoimentos" class="container">
+        <h1>Depoimentos</h1>
+        
+        <!-- Carousel Bootstrap -->
+        <div id="carouselDepoimentos" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="depoimento-card">
+                <img src="./img/clientes/yasmin.png" alt="Foto Cliente 1" class="rounded-circle">
+                <h3>Yasmin</h3>
+                <p>"O serviço é incrível, eu adorei o aplicativo!"</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="depoimento-card">
+                <img src="./img/clientes/carlos.png" alt="Foto Cliente 2" class="rounded-circle">
+                <h3>Carlos</h3>
+                <p>"Nunca usei algo tão eficiente e fácil de usar. Recomendo demais!"</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="depoimento-card">
+                <img src="./img/clientes/roberto.png" alt="Foto Cliente 3" class="rounded-circle">
+                <h3>Roberto</h3>
+                <p>"A melhor experiência que já tive com esse tipo de serviço!"</p>
+              </div>
+            </div>
+          </div>
+          <!-- Controles do Carousel -->
+          <a class="carousel-control-prev" href="#carouselDepoimentos" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselDepoimentos" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+          </a>
+        </div>
+      </section>
+      
+      <section id="formulario">
+        <div class="container-sm" class="col-sm-3">
+          <h1>Envie-nos sua mensagem</h1>
+          <p>Digite seu nome, email, assunto e a mensagem que iremos lhe responder assim que possível </p>
+              <form class="borda">
+                  <div class="form-group" >
+                      <label for="nome">Nome</label>
+                      <input type="text" class="form-control" id="nome" placeholder="Seu nome">
+                  </div>
+                  <div class="form-group" >
+                      <label for="email">Endereço de email</label>
+                      <input type="email" class="form-control" id="email" placeholder="nome@exemplo.com">
+                  </div>
+                  <div class="form-group" >
+                      <label for="assunto">Assunto</label>
+                      <input type="text" class="form-control" id="assunto" placeholder="Assunto da mensagem">
+                  </div>
+                  <div class="form-group">
+                      <label for="mensagem">Mensagem</label>
+                      <textarea class="form-control" id="mensagem" rows="3"
+                          placeholder="Escreva sua mensagem aqui"></textarea>
+                  </div>
+                  <button type="button" class="btn btn-primary btn-md">Enviar</button>
+              </form>
+          <p>Enviaremos uma resposta dentro de 2 dias, por favor aguarde</p>
+      </div>
+    </section>
+
+    
+
+
+
+
+    <footer>
+        <ul>
+            <li><a href="#"><img src="./img/Instagram.svg.png" alt="Instagram" class="imagen"> Instagram</a></li>
+            <li><a href="#"><img src="./img/linkedin.img.webp" alt="LinkedIn" class="imagen"> LinkedIn</a></li>
+            <li><a href="contato.html"><img src="./img/telefone.icon.png" alt="Telefone" class="imagen"> Contatos</a></li>
+            <li><a href="#"><img src="./img/politica.icon.webp" alt="Políticas da Loja" class="imagen"> Políticas da loja</a></li>
+        </ul>
+    </footer>
+
+
+
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/9131ea65b8.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
